@@ -1,10 +1,10 @@
-// alert('hello world');
+// // alert('hello world');
 
-// console.log('hello world')
-function Lf(){
-    let newName = document.querySelector('#t1').value;
-    let li = document.createElement('li');
-    li.innerHTML = newName;
+console.log('hello')
+// function Lf(){
+//     let newName = document.querySelector('#t1').value;
+//     let li = document.createElement('li');
+//     li.innerHTML = newName;
 
-    document.querySelector('#nameList').appendChild(li);
-}
+//     document.querySelector('#nameList').appendChild(li);
+// }
