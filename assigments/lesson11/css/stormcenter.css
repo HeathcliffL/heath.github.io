@@ -1,0 +1,43 @@
+:root {
+  --background-color: #faedcd;
+  --popout-box: #ccd5ae;
+  --text-color: #131b23;
+  --text-color2: #fefae0;
+}
+
+/* Main set up of the content */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+main {
+  max-width: 960px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+/* Main content */
+.p-info,
+.s-info,
+.o-info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.submit-btn {
+  margin: 0 auto;
+  width: 200px;
+}
+
+/* Tablet and smaller */
+@media screen and (max-width: 768px) {
+  .p-info,
+  .s-info,
+  .o-info {
+    padding: 10px 15px;
+    text-align: left;
+  }
+  .submit-btn {
+    margin: 0 0;
+  }
+}
